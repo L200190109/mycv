@@ -1,0 +1,107 @@
+nav h3{
+    font-family: Expletus sans;
+    font-weight: 800;
+}
+nav .p{
+    font-family: Expletus sans;
+    font-size: 40px;
+    font-weight: 800;
+    color:rgb(187, 11, 5);
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    height: 50px;
+    top:35px;
+    z-index: 3;
+    background-color:transparent;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    overflow: hidden;
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
+    color:rgb(253, 232, 253) ;
+    font-family: Ubuntu;
+    width: 100%;
+}
+
+nav .nav-link{
+    display: flex;
+    justify-content: flex-end;
+    list-style:none;
+    width: 75%;
+}
+
+.nav-items{
+    text-decoration: none;
+    color:rgb(253, 232, 253) ;
+    font-size: 25px;
+    font-weight: 700;
+    padding:  25px;
+    padding-top:  35px;
+    cursor: pointer;
+}
+.nav-items:hover{
+    color:rgb(253, 232, 253) ;
+}
+
+.mobile-menu-icon{
+  display: none;  
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    nav h3{
+        display:flex;
+        position:absolute;
+        left: 50px;
+    }
+   nav .nav-link{
+        display: none;
+    }
+    .sosmed{
+        display: none;
+    }
+   nav .nav-link-mobile{
+    position: fixed;
+    display: block;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left:0;
+    top:49px;
+    overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+
+    width: 100%;
+}
+
+.nav-items{
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    font-size: 25px;
+    transition: all 0.5 ease;
+}
+.mobile-menu-icon{
+    display:block;
+    position:absolute;
+    color:rgb(255, 177, 255) ;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline:none;
+    right: 15px;
+}
+}
+

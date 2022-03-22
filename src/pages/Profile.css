@@ -1,0 +1,39 @@
+.container{
+    margin:15% 10%;
+    display: flex;
+    color:rgb(253, 232, 253) ;
+    font-family:Ubuntu;
+    font-size: 25px;
+
+}
+.profile-name{
+margin-top: -105px;
+
+}
+.colz a i{
+    width: 25px;
+}
+.primary-text{
+    font-size: 60px;
+    font-weight: 1200;
+    color: rgb(4, 110, 36);;
+}
+.bold-text{
+    font-weight:700;
+   color:rgb(189, 8, 8);
+}
+
+.profile-img{
+    width:350px;
+    margin-left:65px;
+    margin-top: -200px;
+  
+}
+.profile-img img{
+    width:350px;
+    height: auto;
+}
+.footer-img img{
+    width: 100%;
+
+}

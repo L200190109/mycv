@@ -1,0 +1,28 @@
+.App{
+    margin: 0;
+
+}
+
+.bg{
+    background-color: rgb(88, 0, 84);
+    padding-top: 50px;
+}
+
+.div{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+width: 100%;
+}
+#value{
+    font-size: 25px;
+    font-family: Ubuntu;
+    font-weight: 800;
+    color:rgb(131, 24, 109);
+}
+svg{
+    position: absolute;
+    top:235px;
+    left: 105,5px;
+    color: transparent;
+}
