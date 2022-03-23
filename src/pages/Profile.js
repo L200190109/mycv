@@ -3,8 +3,8 @@ import Typical from 'react-typical'
 import './Profile.css'
 function Profile() {
   return (
-    <div>
-        <div className='container'>
+    <div id='profile'>
+        <div className='container1'>
     
                     <div className='profile-name'>
                         <span className='primary-text'>
@@ -31,11 +31,15 @@ function Profile() {
                             ]}
                             />
                             </b></p></span>
-                        <span className='profile-role-tagline'>
-                            Learn of building applications with front end and back end operations.
+                        <span className='span'>
+                            Learn of building applications with frontend and backend operations.
 
                             </span>
-                        
+                            <div className='div-cv'>
+                 
+                   <a className='button' href=''><b> Get Resume</b></a>
+
+               </div>
                     </div>
 
                     <div className='profile-img'>

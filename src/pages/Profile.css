@@ -1,22 +1,22 @@
-.container{
-    margin:15% 10%;
+.container1{
+    padding:15% 5% 0;
     display: flex;
     color:rgb(253, 232, 253) ;
     font-family:Ubuntu;
     font-size: 25px;
-
 }
 .profile-name{
 margin-top: -105px;
-
+width: 75%;
 }
-.colz a i{
-    width: 25px;
+.span{
+font-size: 25px;
+color: rgb(204, 154, 15);
 }
 .primary-text{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 1200;
-    color: rgb(4, 110, 36);;
+    color: rgb(4, 110, 36);
 }
 .bold-text{
     font-weight:700;
@@ -24,16 +24,75 @@ margin-top: -105px;
 }
 
 .profile-img{
-    width:350px;
-    margin-left:65px;
+    width:35%;
     margin-top: -200px;
-  
 }
 .profile-img img{
     width:350px;
     height: auto;
 }
-.footer-img img{
-    width: 100%;
+.div-cv{
+    margin-top: 5px;
+margin-left: 350px;
+width: 30%;
 
 }
+
+.button {
+   background-color: rgb(4, 110, 36);
+    font-family: Ubuntu;
+    border-radius: 15px;
+    color: rgb(119, 175, 16);
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: rgb(199, 243, 116);
+
+  }
+
+@media screen and (max-width:1020px) {
+    .primary-text{
+        font-size: 30px;
+    }
+    
+    .profile-name{
+        margin-top:5px;
+        width: 100%;
+position: relative;
+    }
+    .profile-img img{
+        width: 250px;
+    }
+   
+
+   }
+   @media screen and (max-width:768px){
+        .profile-img img{
+            display: none;
+            }
+        
+            .container1{
+                display: grid;
+                margin-left: 15px;
+                width: 100%;
+                padding: 15% 0 ;
+            }
+            .span{
+                font-size: 25px;}
+
+                .div-cv{
+                    margin-top: 10px;
+                    margin-left: 50px;
+                    width: 100%;
+                }
+        }

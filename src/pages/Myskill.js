@@ -11,18 +11,18 @@ function Myskill() {
   
     
     return (
-    <div>
+    <div className='br' id='myskill'>
         <div className='skill'>
             <span> {" "}
-                <h1>
+                <p><b>
                     <Typical loop={Infinity}
                         steps={
-                            [" This is my skills ", 1000, " Of course I always increase my skills ", 1000,]
+                            [" This is my skills ", 1000, " I always increase my skills ", 1000,]
                         }/>
-                </h1>
+                </b></p>
             </span>
         </div>
-        <div className='div'>
+        <div className='div-card'>
             <div className='card'>
               <div className='skill-logo'><img src={require('./logo/html.png')}/></div>
               <Html/>

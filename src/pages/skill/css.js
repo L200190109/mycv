@@ -2,7 +2,7 @@ import React from 'react'
 import './css.css'
 function Css() {
   return (
-    <div>
+    <div >
         <div className='outer-circle'>
                     <div className='inner-circle'>
                         <div id='value'>70%</div>

@@ -1,0 +1,89 @@
+.card1{
+  
+    width:80%;
+    background-color: transparent;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+.card1 p{
+  text-align: center;
+  font-size: 40px;
+  font-family: Ubuntu;
+  font-weight: 600;
+  color: rgb(236, 202, 202);
+}
+
+label{
+  text-align: left;
+  color: rgb(236, 202, 202);
+  font-size: 30px;
+  font-weight: 500;
+}
+.flex-div{
+  margin-top: -65px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 75% 15%;
+  grid-gap: 1rem;
+  justify-content: center;
+  padding: 69px;
+}
+.flex-items{
+  background-color: transparent;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+padding: 20px;
+  width: 100%;
+  border-radius: 15px;
+}
+img{
+  cursor: pointer;
+}
+.flex-img{
+
+  display: flex;
+  flex-direction: column;
+}
+.img-wa{
+  margin-left: -35px;
+  width: 135%;
+}
+@media screen and (max-width:780px) {
+  .flex-div{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .flex-items{
+    width: 100%;
+  }
+  .flex-img{
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .flex-img img{
+    width: 25%;
+  }
+  .img-wa{
+    margin-left: 0;
+  }
+  .card1{
+    margin-left: 45px;
+  }
+  .label{
+    font-size: 14px;
+  }
+}

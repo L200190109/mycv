@@ -17,6 +17,47 @@
 .aboutme-details{
 width: 45%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 28px;
-color:white;
+font-size: 30px;
+color: rgb(204, 154, 15);
+font-family: Ubuntu;
 }
+.about-text{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(4, 110, 36);
+
+}
+
+@media screen and (max-width:450px) {
+.div{
+  flex-direction: column;
+  width: 100%;
+}
+.aboutme-img{
+  text-align: center;
+  width: 100%;
+  padding-bottom: 40px;
+}
+img{
+  width: 100%;
+}
+.about-text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(4, 110, 36);
+
+}
+.aboutme-details{
+  font-size: 12px;
+  width: 100%;
+  padding: 45px;
+}
+}
+@media screen and (max-width:1044px) {
+  
+  .aboutme-details{
+    font-size: 25px;
+  }
+  }

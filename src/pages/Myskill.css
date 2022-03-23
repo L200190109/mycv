@@ -1,4 +1,6 @@
-
+.br{
+  padding-top: 100px;
+}
 
 .card{
     margin-top: 50px;
@@ -6,7 +8,7 @@
     align-items: center;
     padding: 15px;
 	border-radius: 15px;
-    width: 25%;
+    width: 80%;
     background-color: rgb(189, 162, 178);
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -19,12 +21,10 @@
   height: auto;
 }
 .skill{
-  
   margin-top: 80px;
-    font-family: ubuntu;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
-    color:white;
+    color: rgb(4, 110, 36);
     text-align: center;
 }
 
@@ -33,3 +33,35 @@
 	height: 220px;
 	padding-bottom: 25px;
 }
+
+.div-card{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4,1fr);
+
+}
+@media screen and (max-width:1044px) {
+ 
+  .div-card{
+    grid-template-columns: repeat(2,1fr);
+  }
+  card{  
+    width: 60%;
+  }
+  .skill-logo img{
+    width: 100%;
+    height: 250px;
+  }
+  }
+  @media screen and (max-width:450px) {
+    card{  
+      width: 40%;
+    }
+    .skill{
+      font-size: 30px;
+    }
+    .skill-logo img{
+      width: 100%;
+      height: 150px;
+    }
+  }

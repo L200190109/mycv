@@ -1,15 +1,17 @@
 .App{
     margin: 0;
-
+    overflow-x: hidden;
+    
 }
 
 .bg{
     background-color: rgb(88, 0, 84);
     padding-top: 50px;
+    padding-bottom: 45px;
 }
 
 .div{
-    padding: 15px;
+    padding-top: 150px;
     display: flex;
     justify-content: center;
 width: 100%;
@@ -25,4 +27,25 @@ svg{
     top:235px;
     left: 105,5px;
     color: transparent;
+}
+
+
+@media screen and (max-width:1044px){
+    svg{
+        top:265px;
+    }}
+    @media screen and (max-width:452px){
+        svg{
+            top:165px;
+        }
+
+}
+@media screen and (max-width:768px) {
+    .bg .responsive{
+      padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .bg .responsive {margin-top: -150px;}
 }
