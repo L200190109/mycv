@@ -45,9 +45,9 @@ function Contact() {
     <div className='flex-items'>
        
         <div className='flex-img'> 
-    <img src={require('./logo/fb.png')}/>
-    <img src={require('./logo/ig.png')}/>
-    <img src={require('./logo/wa.png')} className='img-wa'/>
+    <a href="https://mobile.facebook.com/abdulmanan.maulana"><img src={require('./logo/fb.png')} /></a>
+    <a href="https://www.instagram.com/abdulmananmaulana/"><img src={require('./logo/ig.png')} /></a>
+    <a href="https://wa.me/62895344014457"><img src={require('./logo/wa.png')} className='img-wa'  /></a>
     </div>
     </div>
     </div>

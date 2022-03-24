@@ -37,7 +37,7 @@ function Profile() {
                             </span>
                             <div className='div-cv'>
                  
-                   <a className='button' href=''><b> Get Resume</b></a>
+                   <a className='button' href='mycv.pdf' download='Maulana mycv.pdf'><b> Get Resume</b></a>
 
                </div>
                     </div>
