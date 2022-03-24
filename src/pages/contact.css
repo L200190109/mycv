@@ -76,8 +76,8 @@ a img{
     justify-content: center;
     width: 100%;
   }
-  .flex-img img{
-    width: 25%;
+  a img{
+    width: 35%;
   }
   .img-wa{
     margin-left: 0;

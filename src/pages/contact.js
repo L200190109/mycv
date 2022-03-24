@@ -12,12 +12,13 @@ function Contact() {
       emailjs.sendForm('service_6nfah8x', 'template_zcwzhml', form.current, '3pyQkdjSwmy5SPOPW')
         .then((result) => {
             console.log(result.text);
-            setName('')
-            setEmail('')
-            setMessage('')
+            
         }, (error) => {
             console.log(error.text);
         });
+        setName('')
+        setEmail('')
+        setMessage('')
     };
   return (
     <div className='div' id='contact'>
@@ -42,14 +43,7 @@ function Contact() {
     </form>
     </div>
 
-    <div className='flex-items'>
-       
-        <div className='flex-img'> 
-    <a href="https://mobile.facebook.com/abdulmanan.maulana"><img src={require('./logo/fb.png')} /></a>
-    <a href="https://www.instagram.com/abdulmananmaulana/"><img src={require('./logo/ig.png')} /></a>
-    <a href="https://wa.me/62895344014457"><img src={require('./logo/wa.png')} className='img-wa'  /></a>
-    </div>
-    </div>
+    
     </div>
     </div>
     </div>
