@@ -1,6 +1,6 @@
 .card1{
   
-    width:80%;
+    width:60%;
     background-color: transparent;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -29,7 +29,7 @@ label{
   margin-top: -65px;
   width: 100%;
   display: grid;
-  grid-template-columns: 75% 15%;
+  grid-template-columns: 75% ;
   grid-gap: 1rem;
   justify-content: center;
   padding: 69px;
@@ -48,20 +48,7 @@ padding: 20px;
   width: 100%;
   border-radius: 15px;
 }
-img{
-  cursor: pointer;
-}
-.flex-img{
-  display: flex;
-  flex-direction: column;
-}
-a img{
-  width: 100%;
-}
-.img-wa{
-  margin-left: -35px;
-  width: 135%;
-}
+
 @media screen and (max-width:780px) {
   .flex-div{
     display: flex;
@@ -71,17 +58,7 @@ a img{
   .flex-items{
     width: 100%;
   }
-  .flex-img{
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  a img{
-    width: 35%;
-  }
-  .img-wa{
-    margin-left: 0;
-  }
+
   .card1{
     margin-left: 45px;
   }
