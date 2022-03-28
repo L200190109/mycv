@@ -55,13 +55,16 @@
   }
   @media screen and (max-width:450px) {
     card{  
-      width: 40%;
+      width: 30%;
     }
     .skill{
       font-size: 30px;
     }
+    .skill-logo{
+        text-align: center;
+    }
     .skill-logo img{
-      width: 100%;
+      width: 80%;
       height: 150px;
     }
   }
