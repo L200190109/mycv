@@ -11,7 +11,7 @@ function Aboutme() {
         </div>
         
         <div className='aboutme-details'>  
-        <p className='about-text'>
+       <div className='about-text'> 
                             {" "}
                             <b>
                             <Typical 
@@ -24,11 +24,11 @@ function Aboutme() {
                                "<b>About Me</b>",
                                 1000,
                             ]}
-                            /> </b></p>
+                            /> </b></div>
 
-            <p>I am a student at the Muhammadiyah University of Surakarta majoring in Informatics Engineering.
+            <span>I am a student at the Muhammadiyah University of Surakarta majoring in Informatics Engineering.
 Previously I also studied in the RPL department.<br/>
-Of course, with such a history, I have sufficient experience in the department I am in.</p><p>As a junior programmer, I'm always excited to learn something new,and always try to be a professional.</p>
+Of course, with such a history, I have sufficient experience in the department I am in.</span><span>As a junior programmer, I'm always excited to learn something new,and always try to be a professional.</span>
         </div>
     </div>
     </div>

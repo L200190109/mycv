@@ -23,23 +23,23 @@ function Contact() {
   return (
     <div className='div' id='contact'>
         <div className='card1'>
-            <p>Please Contact Me</p>
+            <span>Please Contact Me</span>
             <div className='flex-div'>
                 <div className='flex-items'>
         <form ref={form} onSubmit={sendEmail}>
-      <div class="mb-3">
-  <label for="exampleFormControlInput1" class="label">Name</label>
-  <input type="text" class="form-control" name='user_name' value={name}  onChange={(e)=>{setName(e.target.value)}}/>
+      <div className="mb-3">
+  <label htmlFor="exampleFormControlInput1" className="label">Name</label>
+  <input type="text" className="form-control" name='user_name' value={name}  onChange={(e)=>{setName(e.target.value)}}/>
 </div>
-      <div class="mb-3">
-  <label for="exampleFormControlInput1" class="label">Email address</label>
-  <input type="email" class="form-control" name='user_email' value={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder="name@example.com"/>
+      <div className="mb-3">
+  <label htmlFor="exampleFormControlInput1" className="label">Email address</label>
+  <input type="email" className="form-control" name='user_email' value={email} onChange={(e)=>{setEmail(e.target.value)}} placeholder="name@example.com"/>
 </div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="label">Message</label>
-  <textarea class="form-control" name='message' value={message} onChange={(e)=>{setMessage(e.target.value)}} rows="3"></textarea>
+<div className="mb-3">
+  <label htmlFor="exampleFormControlTextarea1" className="label">Message</label>
+  <textarea className="form-control" name='message' value={message} onChange={(e)=>{setMessage(e.target.value)}} rows="3"></textarea>
 </div>
-      <button class="btn btn-primary" type="submit">Submit form</button>
+      <button className="btn btn-primary" type="submit">Submit form</button>
     </form>
     </div>
 

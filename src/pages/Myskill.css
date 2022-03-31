@@ -40,6 +40,114 @@
   grid-template-columns: repeat(4,1fr);
 
 }
+
+
+.outer-circle{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.015),
+  -6px -6px 10px -1px rgba(255,255, 255, .7);
+  padding:20px;
+}
+.inner-circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow:inset 4px 4px  6px -1px rgba(0, 0, 0, .2),
+    inset -4px -4px  6px -1px rgba(255, 255, 255, .7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, .2),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.circle-html{
+    color: transparent;
+    fill: none;
+    stroke-width: 20px;
+    stroke: url('#linear');
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: html 3s linear forwards;
+}
+@keyframes html {
+    100%{
+        stroke-dashoffset: 65;
+    }
+}
+.circle-css{
+    color: transparent;
+    fill: none;
+    stroke-width: 20px;
+    stroke: url('#linear');
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: css 3s linear forwards;
+}
+@keyframes css {
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+.circle-php{
+    color: transparent;
+    fill: none;
+    stroke-width: 20px;
+    stroke: url('#linear');
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: php 3s linear forwards;
+}
+@keyframes php {
+    100%{
+        stroke-dashoffset: 95;
+    }
+}
+.circle-react{
+    color: transparent;
+    fill: none;
+    stroke-width: 20px;
+    stroke: url('#linear');
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: react 3s linear forwards;
+}
+@keyframes react {
+    100%{
+        stroke-dashoffset: 200;
+    }
+}
+
+.default{
+  color: transparent;
+  fill: none;
+  stroke-width: 20px;
+  stroke: url('#linear');
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  animation: o s linear forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1044px) {
  
   .div-card{

@@ -14,7 +14,7 @@ function Profile() {
                     
                         <span className='primary-text'>
                             {" "}
-                            <p><b>
+                            <b>
                             <Typical 
                             loop={Infinity} 
                             steps={[
@@ -30,7 +30,7 @@ function Profile() {
 
                             ]}
                             />
-                            </b></p></span>
+                            </b></span>
                         <span className='span'>
                             Learn of building applications with frontend and backend operations.
 
