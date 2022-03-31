@@ -19,33 +19,28 @@ function App() {
        setDefult(entry.isIntersecting)
      })
      observer.observe(mySkill.current)
-
       }, [])
       
-      
-    
-      
-   
        return(
             <div className='App'>
                 <div className='bg'>
                 <Navbar/>
-       <Profile/>
+      
 
                     <div className='responsive'>
-                        
+                    <Profile/>       
           <Aboutme/>
 
          <div >
          <div className='br' id='myskill'>
         <div className='skill'>
             <span> {" "}
-                <b>
+                
                     <Typical loop={Infinity}
                         steps={
-                            [" This is my skills ", 1000, " I always increase my skills ", 3000,]
+                            [" This is my skills ", 1000, " I always increase my skills ", 1000]
                         }/>
-                </b>
+               
             </span>
         </div>
         <div className='div-card'>
