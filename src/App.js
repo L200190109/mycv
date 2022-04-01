@@ -10,7 +10,9 @@ import Aboutme from './pages/Aboutme';
 import Contact from './pages/contact';
 import './pages/Myskill.css'
 import Typical from 'react-typical'
+import {useInView} from 'react-intersection-observer'
 function App() {
+  const {ref:load,inView:visible}=useInView()
     const [defult, setDefult] = useState()
     const mySkill= useRef()
       useEffect(() => {
